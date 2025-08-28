@@ -13669,3 +13669,9 @@
 	text-align: center;
 	margin-top: 60px;
 }
+.symbols {
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
