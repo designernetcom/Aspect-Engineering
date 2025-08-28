@@ -13666,12 +13666,30 @@
   }
 }
 .certi {
-	text-align: center;
-	margin-top: 60px;
+  text-align: center;
+  margin-top: 60px;
 }
 .symbols {
-     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  flex-direction: row;
+}
+
+.logos {
+  display: flex;
+  margin-top: 25px;
+}
+.about-section .content-column .logos .lower-box {
+  margin-top: 0;
+  padding-top: 0;
+}
+@media (max-width: 800px) {
+  .logos {
+    display: inline-block;
+  }
+  .symbols {
+margin-top: 20px;
+  }
 }
